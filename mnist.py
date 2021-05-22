@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 """
 Author: Hao-Li Huang
-Exercise from Big Data workshop by PSE, Apr 2021
+Exercise from XSEDE Big Data and Machine Learning Workshop, Apr 2021
 """
 
 import tensorflow as tf

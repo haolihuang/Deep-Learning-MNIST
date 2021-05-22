@@ -9,4 +9,6 @@ I worked with the built-in MNIST dataset. I built a `Sequential` model, which in
 ## TensorBoard
 There is a line of code that allows for monitoring the training of the model in real time using TensorBoard that starts with `tensorboard_callback = ...`. This line, along with specifying `callbacks = [tensorboard_callback]` in `model.fit()` create a folder (named `TB_logDir` in my code) in the current directory and can be read by TensorBoard. 
 
-To open Tensorboard, run commend `tensorboard --logdir TB_logDir` in terminal. Note that the directory should point to the folder created by the code mentioned above. After running the commend, you should see a prompt like `TensorBoard 2.4.0 at http://localhost:6006/ (Press CTRL+C to quit)`. Enter the url in a web browser to use Tensorboard.
+To open Tensorboard, run commend `tensorboard --logdir TB_logDir` in terminal. Note that the directory should point to the folder created by the code mentioned above. After running the commend, you should see a prompt like `TensorBoard 2.4.0 at http://localhost:6006/ (Press CTRL+C to quit)`. Enter the url in a web browser to use Tensorboard. You should be able to see plots of training and test scores, among other things.
+
+![Alt text](TensorBoard.png?raw=true "Title")
